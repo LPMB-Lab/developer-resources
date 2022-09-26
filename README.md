@@ -16,7 +16,7 @@ As such, it's recommended to give users control over as many parameters as possi
   - Typically time sliders should be snapped to 0.1-second increments
   - Typically distance sliders should be snapped to 0.5-metre (or, rarely, 0.25-metre) increments
   - A useful formula for snapping slider intervals is
-    - Mathf.Round((sliderValue - minSliderValue) / increment) * increment
+    - `Mathf.Round((sliderValue - minSliderValue) / increment) * increment`
 - Dropdowns for letting users change the type of trial or sex of virtual pedestrians
   - Common trial types are:
     - Speed, typipcally fewer than 10, in which the participant walks in a straight line over multiple trials to get an average walking speed that can then be used to get the timming of stimuli accurate. Occasionally the walking speed measurement may be done in Practice/Familiarisation trals, with no Speed trials at all.
