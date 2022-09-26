@@ -34,3 +34,15 @@ Users usually want to keep track of how many trials have been completed and how 
 Naturally, not everybody has VR headset, so for development you'll typically need to create a script that moves the "player" using keyboard controls and rotates the view with a mouse or in set increments using keyboard keys.
 
 It's probably good to have some familiarity with Unity's new input system, as that seems to be the direction in which Unity is moving.
+
+## Finding models and animations
+I use Mixamo, they have a several locomotion animation packs and simple models to apply them to, which makes it easy to find you're looking for.
+
+The animations are motion-captured, so they are realistic looking. To download:
+- Select a model (if you just want an animation, I usually pick the Y Bot or X Bot)
+- Select an animation or animation pack and apply it to the model
+- Download as an FBX for Unity
+- Import, change Rig type from Generic to humanoid
+- Tick the "Loop time" option in each animation's import settings
+
+And, of course, since you'll be working with animation a little bit, it's good to get used to Unity's Animator and triggering certain animations via code (usually just Idle -> Walking).
