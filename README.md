@@ -45,4 +45,6 @@ The animations are motion-captured, so they are realistic looking. To download:
 - Import, change Rig type from Generic to humanoid
 - Tick the "Loop time" option in each animation's import settings
 
+Animation import sometimes gives an error saying a hip bone is missing. If that happens, try changing 
+
 And, of course, since you'll be working with animation a little bit, it's good to get used to Unity's Animator and triggering certain animations via code (usually just Idle -> Walking).
