@@ -20,7 +20,17 @@ As such, it's recommended to give users control over as many parameters as possi
 - Dropdowns for letting users change the type of trial or sex of virtual pedestrians
   - Common trial types are:
     - Speed, typipcally fewer than 10, in which the participant walks in a straight line over multiple trials to get an average walking speed that can then be used to get the timming of stimuli accurate. Occasionally the walking speed measurement may be done in Practice/Familiarisation trals, with no Speed trials at all.
-    - Practice/Familiarisation, in which participants get an opportunity to navigate in virtual reality, or get a "teaser" of what they will have to do in the Actual/Recorded trials.
+    - Practice/Familiarisation, in which participants get an opportunity to navigate in virtual reality, or get a simple preview of what they will have to do in the Actual/Recorded trials.
     - Control, in which no special stimulus occurs. Not all programs will have control trials; instead they may just have Actual/Recorded trials with varying degrees of stimulus, along with Speed and/or Practice/Familiarisation trials at the beginning.
     - Actual/Recorded, in which the participant performs the task on which the study or experiment is based, and the results of which are recorded along with the specifications of the trial.
-- Rarely, text boxes to allow users to enter continuous and precise physical information, like the shoulder width of a participant.
+- Rarely, text boxes to allow users to enter precise numerical information, like the shoulder width of a participant.
+
+For simplicity, it may be useful to have the program start into a setup screen (i.e., just a dark grey UI panel with sliders, dropdowns, and buttons over it that the user can change trial settings in before clicking a "Start" button, at which point the panel and setup UI elements disappear and the trials can begin. If building for VR, a semi-transparent panel is good, since it provides enough contrast for the UI to be seen clearly, but also lets the users see what the participant sees in VR.
+
+## Displaying trial information
+Users usually want to keep track of how many trials have been completed and how many remain, as well as some information like the trial type. If it's a VR build, the head-mounted display (HMD) won't display UI canvases with the "Screen Space - Overlay" display mode, so you can include additonal information that the participant should not know, but the users may find useful.
+
+## Implementing mouse + keyboard control for development
+Naturally, not everybody has VR headset, so for development you'll typically need to create a script that moves the "player" using keyboard controls and rotates the view with a mouse or in set increments using keyboard keys.
+
+It's probably good to have some familiarity with Unity's new input system, as that seems to be the direction in which Unity is moving.
