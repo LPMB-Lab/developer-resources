@@ -42,7 +42,7 @@ The animations are motion-captured, so they are realistic looking. To download:
 - Select a model (if you just want an animation, I usually pick the Y Bot or X Bot)
 - Select an animation or animation pack and apply it to the model
 - Download as an FBX for Unity
-- Import, change Rig type from Generic to humanoid
+- Import, change Rig type from Generic to Humanoid
 - Tick the "Loop time" option in each animation's import settings (unless, of course, the animation is a one-time thing, like a wave or jump)
 
 Animation import sometimes gives an error saying a hip bone is missing. If that happens, try changing Avatar Definition from "Create From This Model" to "Copy From Other Model" and select the model you downloaded or another Mixamo model. If the error persists, re-download the model in the FBX for Unity format and try again with the new model.
