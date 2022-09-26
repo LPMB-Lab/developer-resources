@@ -36,7 +36,7 @@ Naturally, not everybody has VR headset, so for development you'll typically nee
 It's probably good to have some familiarity with Unity's new input system, as that seems to be the direction in which Unity is moving.
 
 ## Finding models and animations
-I use Mixamo, they have a several locomotion animation packs and simple models to apply them to, which makes it easy to find you're looking for.
+I use Mixamo, they have a several locomotion animation packs and simple models to apply them to, which makes it easy to find you're looking for. You'll need an Adobe account (or log in using Google or another one of the provided options).
 
 The animations are motion-captured, so they are realistic looking. To download:
 - Select a model (if you just want an animation, I usually pick the Y Bot or X Bot)
