@@ -48,3 +48,16 @@ The animations are motion-captured, so they are realistic looking. To download:
 Animation import sometimes gives an error saying a hip bone is missing. If that happens, try changing Avatar Definition from "Create From This Model" to "Copy From Other Model" and select the model you downloaded or another Mixamo model. If the error persists, re-download the model in the FBX for Unity format and try again with the new model.
 
 And, of course, since you'll be working with animation a little bit, it's good to get used to Unity's Animator and triggering certain animations via code (usually just Idle -> Walking).
+
+# Recommendations
+
+## Basic project structure
+LPMB Lab programs have the following basic components:
+1. Trials, which have properties like 
+2. Trial structure
+3. Some sort of (usually human) stimulus
+4. User input
+5. Data Collection
+6. UI
+
+As such, my recommendation is to create scripts for each of those components and attach them to an emoty `System Manager` GameObject.
