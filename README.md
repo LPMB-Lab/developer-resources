@@ -53,11 +53,9 @@ And, of course, since you'll be working with animation a little bit, it's good t
 
 ## Basic project structure
 LPMB Lab programs have the following basic components:
-1. Trials, which have properties like 
-2. Trial structure
-3. Some sort of (usually human) stimulus
-4. User input
-5. Data Collection
-6. UI
-
-As such, my recommendation is to create scripts for each of those components and attach them to an emoty `System Manager` GameObject.
+1. Trials
+3. Trial structure
+4. Some sort of (usually human) stimulus
+5. User input
+6. Data Collection
+7. UI
