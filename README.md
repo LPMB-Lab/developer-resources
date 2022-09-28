@@ -19,7 +19,7 @@ As such, it's recommended to give users control over as many parameters as possi
     - `Mathf.Round((sliderValue - minSliderValue) / increment) * increment`
 - Dropdowns for letting users change the type of trial or sex of virtual pedestrians
   - Common trial types are:
-    - Speed, typipcally fewer than 10, in which the participant walks in a straight line over multiple trials to get an average walking speed that can then be used to get the timming of stimuli accurate. Occasionally the walking speed measurement may be done in Practice/Familiarisation trals, with no Speed trials at all.
+    - Speed, typically fewer than 10, in which the participant walks in a straight line over multiple trials to get an average walking speed that can then be used to get the timming of stimuli accurate. Occasionally the walking speed measurement may be done in Practice/Familiarisation trals, with no Speed trials at all.
     - Practice/Familiarisation, in which participants get an opportunity to navigate in virtual reality, or get a simple preview of what they will have to do in the Actual/Recorded trials.
     - Control, in which no special stimulus occurs. Not all programs will have control trials; instead they may just have Actual/Recorded trials with varying degrees of stimulus, along with Speed and/or Practice/Familiarisation trials at the beginning.
     - Actual/Recorded, in which the participant performs the task on which the study or experiment is based, and the results of which are recorded along with the specifications of the trial.
