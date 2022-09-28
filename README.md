@@ -60,10 +60,10 @@ LPMB Lab programs have the following basic components:
 5. Data Collection
 6. UI
 
-As such I've found it beneficial to create scripts for each of these components and attach most of them to a central, ampty `System Manager` GameObject. Scripts I almost always have are:
+As such I've found it beneficial to create scripts for each of these components and attach most of them to a central, empty `System Manager` GameObject. Scripts I almost always have are:
 1. `Trial.cs`: contains the definition of a Trial, including a `TrialType` enum and variables for other trial parameters.
 2. `TrialManager.cs`: controls what happens when trials start and end, as well as trial progression.
-3. A script for e.g. virtual pedestrian management, PLD management, etc.
+3. A script for e.g. virtual pedestrian management, PLD management, etc. This script typically goes onto another GameObject that serves as an anchor point for e.g. virtual pedestrian path intersection.
 4. `InputManager.cs`: detecting inout and activating appropriate functions in other scripts when input is detected.
 5. `DataManager.cs`: has methods for recording data into local files or on Google Sheets.
 6. `UIManager.cs`: controls what happens when input UI elements are changed and changes UI text to reflect current trial.
