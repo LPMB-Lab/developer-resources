@@ -59,3 +59,5 @@ LPMB Lab programs have the following basic components:
 5. User input
 6. Data Collection
 7. UI
+
+As such I've found it beneficial to create scripts for each of these components and attach most of them to a central, ampty `System Manager` GameObject.
