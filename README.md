@@ -73,4 +73,5 @@ Program paradigms will often change as time goes on, so it's important to create
 
 1. `UIManager.cs`:
   - Generically named `Handle` functions for each UI elements, e.g. `public void HandleAnimationDelaySliderChanged(float sliderValue)` so you can also call methods in e.g. `TrialManager.cs` from the `Handle` function when the slider value is changed.
+2. `TrialManager.cs`:
   - Generically named `Handle` functions in `TrialManager.cs` that take care of what happens when each trigger is entered or exited (e.g. `public void HandleStartTriggerEntered()` and `public void HandleStartTriggerExited()`) which are called, of course, by `OnTriggerEnter()` or `OnTriggerExit()` functions in scripts attached to each trigger.
