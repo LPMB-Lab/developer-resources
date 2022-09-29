@@ -72,6 +72,6 @@ As such I've found it beneficial to create scripts for each of these components 
 Program paradigms will often change as time goes on, so it's important to create functions in such a way that making changes to the paradigm is easy. Here are a few recommendations, based on my own experience:
 
 1. `UIManager.cs`:
-  a. Generically named `Handle` functions for each UI elements, e.g. `public void HandleAnimationDelaySliderChanged(float sliderValue)` so you can also call methods in e.g. `TrialManager.cs` from the `Handle` function when the slider value is changed.
-  b. Generically named `Handle` functions in `TrialManager.cs` that take care of what happens when each trigger is entered or exited (e.g. `public void HandleStartTriggerEntered()` and `public void HandleStartTriggerExited()`) which are called, of course, by `OnTriggerEnter()` or `OnTriggerExit()` functions in scripts attached to each trigger.
+  1. Generically named `Handle` functions for each UI elements, e.g. `public void HandleAnimationDelaySliderChanged(float sliderValue)` so you can also call methods in e.g. `TrialManager.cs` from the `Handle` function when the slider value is changed.
+  2. Generically named `Handle` functions in `TrialManager.cs` that take care of what happens when each trigger is entered or exited (e.g. `public void HandleStartTriggerEntered()` and `public void HandleStartTriggerExited()`) which are called, of course, by `OnTriggerEnter()` or `OnTriggerExit()` functions in scripts attached to each trigger.
   
